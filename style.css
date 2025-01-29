@@ -22,7 +22,7 @@ body {
   width: 400px;
 }
 .container h1 {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: center;
@@ -51,7 +51,46 @@ body {
 .sign-up i {
   position: absolute;
   right: 10px;
-  top: 30px;
+  top: 17px;
   transform: translate(-50%);
   color: green;
+}
+.sign-up-button .btn {
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  background: slategray;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  width: 40%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.sign-up-button .btn:hover {
+  background: rgb(100, 124, 147);
+  color: #fdfcfc;
+}
+.next-btn {
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  margin-left: 100px;
+  background: slategray;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  width: 40%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.next-btn:hover {
+  background: rgb(100, 124, 147);
+  color: #fdfcfc;
 }
