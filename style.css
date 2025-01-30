@@ -54,6 +54,7 @@ body {
   top: 17px;
   transform: translate(-50%);
   color: green;
+  outline: none;
 }
 .sign-up-button .btn {
   align-items: center;
