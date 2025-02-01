@@ -95,3 +95,21 @@ body {
   background: rgb(100, 124, 147);
   color: #fdfcfc;
 }
+
+.submit-page-container {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 80%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: seagreen;
+}
+.submit-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 40px 40px 70px;
+  padding: 20px;
+  color: #fff;
+}
